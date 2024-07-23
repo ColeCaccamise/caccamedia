@@ -23,7 +23,7 @@ export default function Home() {
 	];
 
 	return (
-		<div className='flex flex-col gap-24 items-left'>
+		<div className='flex flex-col gap-24 items-left px-4'>
 			<div className='flex flex-col gap-4 px-3'>
 				{' '}
 				<h1 className='text-2xl font-semibold'>Caccamedia</h1>
