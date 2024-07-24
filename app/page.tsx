@@ -32,6 +32,7 @@ export default function Home() {
 					by{' '}
 					<Link
 						href='https://colecaccamise.com'
+						target='_blank'
 						className='no-underline'
 					>
 						Cole Caccamise
@@ -49,7 +50,7 @@ export default function Home() {
 					{ventures.map((venture) => (
 						<Link
 							key={venture.name}
-							href={venture.url || ''}
+							href={venture.url ? venture.url : '#'}
 							target={venture.url ? '_blank' : ''}
 							className={`p-3 no-underline rounded-md ${
 								venture.url
