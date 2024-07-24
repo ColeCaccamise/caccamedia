@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import { Inter } from 'next/font/google';
 import './globals.css';
 
@@ -23,6 +24,7 @@ export default function RootLayout({
 				<main className='py-20 flex flex-col h-full items-center'>
 					{children}
 				</main>
+				<GoogleAnalytics gaId='G-925P4MT7PB' />
 			</body>
 		</html>
 	);
