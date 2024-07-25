@@ -13,7 +13,7 @@ export default function Home() {
 		{
 			name: 'Founder Supply (launching soon)',
 			description: 'Premium Framer templates for startups & founders. ',
-			// url: 'https://founder.supply/',
+			url: 'https://founder.supply/',
 		},
 		{
 			name: 'SaaSKit UI (coming soon)',
@@ -31,7 +31,7 @@ export default function Home() {
 					Caccamedia owns and operates a collection of business ventures founded
 					by{' '}
 					<Link
-						href='https://colecaccamise.com'
+						href='https://colecaccamise.com?ref=caccamedia'
 						target='_blank'
 						className='no-underline'
 					>
