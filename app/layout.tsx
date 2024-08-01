@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { GoogleAnalytics } from '@next/third-parties/google';
+import PlausibleProvider from 'next-plausible';
 import { Inter } from 'next/font/google';
 import './globals.css';
 
@@ -21,10 +21,14 @@ export default function RootLayout({
 			<body
 				className={`dark:dark bg-app-bg text-high-contrast-text inter.className`}
 			>
-				<main className='py-20 flex flex-col h-full items-center'>
-					{children}
-				</main>
-				<GoogleAnalytics gaId='G-925P4MT7PB' />
+				<PlausibleProvider
+					domain='caccamedia.com'
+					trackOutboundLinks={true}
+				>
+					<main className='py-20 flex flex-col h-full items-center'>
+						{children}
+					</main>
+				</PlausibleProvider>
 			</body>
 		</html>
 	);
