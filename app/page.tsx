@@ -11,14 +11,10 @@ export default function Home() {
 			url: 'https://youtube.com/@ColeCaccamise',
 		},
 		{
-			name: 'Founder Supply (launching soon)',
-			description: 'Premium Framer templates for startups & founders. ',
-			url: 'https://founder.supply/',
-		},
-		{
-			name: 'SaaSKit UI (coming soon)',
-			description: 'An open-source UI library for modern SaaS applications.',
-			// url: 'https://saaskit.design/',
+			name: 'Visibly.co (launching soon)',
+			description:
+				'SaaS landing page templates built with Next.js and TailwindCSS.',
+			url: 'https://caccamise.link/visibly',
 		},
 	];
 
