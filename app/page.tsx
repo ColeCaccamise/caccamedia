@@ -11,10 +11,9 @@ export default function Home() {
 			url: 'https://youtube.com/@ColeCaccamise',
 		},
 		{
-			name: 'Visibly.co (launching soon)',
-			description:
-				'SaaS landing page templates built with Next.js and TailwindCSS.',
-			url: 'https://caccamise.link/visibly',
+			name: 'Hyperapta Studios',
+			description: 'Indie game development studio.',
+			// url: 'https://hyperapta.com',
 		},
 	];
 
