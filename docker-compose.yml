@@ -1,0 +1,12 @@
+version: '3'
+services:
+  next:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3060:3000"
+    volumes:
+      - ./.next/static:/app/.next/static
+    env_file:
+      - .env
