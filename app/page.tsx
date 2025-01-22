@@ -8,13 +8,13 @@ export default function Home() {
 		{
 			name: 'YouTube | Cole Caccamise',
 			description: 'Aesthetic tech videos.',
-			url: 'https://youtube.com/@ColeCaccamise',
+			url: 'https://youtube.com/@ColeCaccamise'
 		},
 		{
 			name: 'Hyperapta Studios',
 			description: 'Indie game development studio.',
-			// url: 'https://hyperapta.com',
-		},
+			url: 'https://hyperapta.com'
+		}
 	];
 
 	return (
