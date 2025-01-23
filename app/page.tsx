@@ -18,7 +18,7 @@ export default function Home() {
 	];
 
 	return (
-		<div className='flex flex-col gap-24 items-left px-4 py-8'>
+		<div className='flex flex-col gap-24 items-left px-6 py-8'>
 			<div className='flex flex-col gap-4 px-3'>
 				{' '}
 				<h1 className='text-2xl font-semibold'>Caccamedia</h1>
@@ -62,7 +62,7 @@ export default function Home() {
 				</div>
 			</div>
 
-			<div className='flex gap-6 sm:gap-6 justify-center sm:justify-between items-center'>
+			<div className='flex gap-6 justify-between items-center'>
 				<span className='text-low-contrast-text'>
 					&copy; {new Date().getFullYear()} Caccamedia
 				</span>
