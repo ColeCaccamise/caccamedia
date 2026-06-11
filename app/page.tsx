@@ -24,14 +24,24 @@ export default function Home() {
 				{' '}
 				<h1 className='text-2xl font-semibold'>Caccamedia</h1>
 				<p>
-					Caccamedia owns and operates a collection of business ventures founded
-					by{' '}
+					Caccamedia owns and operates a collection of internet businesses
+					founded by{' '}
 					<Link
 						href='https://colecaccamise.com?ref=caccamedia'
 						target='_blank'
 						className='no-underline'
 					>
 						Cole Caccamise
+					</Link>
+					, spanning YouTube content and indie game development.
+				</p>
+				<p>
+					For partnerships, press, or questions, get in touch at{' '}
+					<Link
+						href='mailto:cole@caccamedia.com'
+						className='no-underline'
+					>
+						cole@caccamedia.com
 					</Link>
 					.
 				</p>
