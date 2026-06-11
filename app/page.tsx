@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { ArrowTopRightIcon } from '@radix-ui/react-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import CopyrightYear from './copyright-year';
 
 export default function Home() {
 	const ventures = [
@@ -23,14 +24,24 @@ export default function Home() {
 				{' '}
 				<h1 className='text-2xl font-semibold'>Caccamedia</h1>
 				<p>
-					Caccamedia owns and operates a collection of business ventures founded
-					by{' '}
+					Caccamedia owns and operates a collection of internet businesses
+					founded by{' '}
 					<Link
 						href='https://colecaccamise.com?ref=caccamedia'
 						target='_blank'
 						className='no-underline'
 					>
 						Cole Caccamise
+					</Link>
+					, spanning YouTube content and indie game development.
+				</p>
+				<p>
+					For partnerships, press, or questions, get in touch at{' '}
+					<Link
+						href='mailto:cole@caccamedia.com'
+						className='no-underline'
+					>
+						cole@caccamedia.com
 					</Link>
 					.
 				</p>
@@ -64,7 +75,8 @@ export default function Home() {
 
 			<div className='flex gap-6 justify-between items-center'>
 				<span className='text-low-contrast-text'>
-					&copy; {new Date().getFullYear()} Caccamedia
+					&copy; <CopyrightYear initialYear={new Date().getFullYear()} />{' '}
+					Caccamedia LLC
 				</span>
 
 				<div className='flex items-center gap-4'>
