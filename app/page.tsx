@@ -3,6 +3,8 @@ import { ArrowTopRightIcon } from '@radix-ui/react-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
+export const dynamic = 'force-dynamic';
+
 export default function Home() {
 	const ventures = [
 		{
@@ -64,7 +66,7 @@ export default function Home() {
 
 			<div className='flex gap-6 justify-between items-center'>
 				<span className='text-low-contrast-text'>
-					&copy; {new Date().getFullYear()} Caccamedia
+					&copy; {new Date().getFullYear()} Caccamedia LLC
 				</span>
 
 				<div className='flex items-center gap-4'>
